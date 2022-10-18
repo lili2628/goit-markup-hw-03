@@ -194,10 +194,24 @@ body{
     margin-right: 30px;
 }
 
-.features-title{
+/*.features-title{
     margin-top: 0;
     margin-bottom: 0;
     display:none;
+}*/
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features-subtitle{
@@ -273,7 +287,11 @@ body{
 
 .photo{
     display: block;
-    margin-bottom: 30px;
+}
+
+.team-description{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-subtitle{
@@ -296,7 +314,6 @@ body{
 
 .container.card {
     width: 270px;
-    padding-bottom: 30px;
     padding-left: 0;
     padding-right: 0;
 }
@@ -338,11 +355,11 @@ body{
     background-color: var(--accent-color);
 }
 
-.works{
+/*.works{
     margin-top: 0;
     margin-bottom: 0;
     display: none;
-}
+}*/
 
 .example{
     display: flex;
@@ -377,7 +394,9 @@ body{
     padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
 
 .example-type{
